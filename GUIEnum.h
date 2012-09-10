@@ -1,0 +1,31 @@
+#pragma once
+
+// Game states
+enum GameStates
+{
+	TITLE,
+	LOADING,
+	DIALOG,
+	IN_GAME,
+	PAUSED,
+	CREDITS,
+	MENU
+};
+
+// Menu functions
+enum MenuFunctions
+{
+	NULL_FUNCTION,
+	PUSH_TITLE,
+	PUSH_PAUSE,
+	PUSH_LOADING,
+	PUSH_QUIT,
+	PUSH_HELP,
+	PUSH_DIALOG,
+	PUSH_CREDITS,
+	POP_MENU,
+	START_GAME,
+	NEXT_LEVEL,
+	TO_TITLE,
+	TO_DESKTOP
+};
